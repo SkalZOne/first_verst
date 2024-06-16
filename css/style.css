@@ -1,0 +1,613 @@
+* {
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+/* Шапка */
+
+header {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+/* Кнопки */
+
+.bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+.bar button {
+
+    margin-left: 15px;
+}
+
+.bar .GetTemplate {
+    background-color: #1B1A1A;
+    height: 60%;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.bar .GetTemplate a {
+    color: white;
+}
+
+.box {
+    width: 25%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+/* Первый блок-контент */
+
+.firstcontent {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: none;
+    height: 579.4px;
+}
+
+.firstcontent .text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 80px;
+    width: 600px;
+}
+
+.firstcontent .text p:nth-child(1) {
+    color: #645C55;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.firstcontent .text p:nth-child(2) {
+    color: #1B1A1A;
+    font-size: 64px;
+}
+.firstcontent .text p:nth-child(3) {
+    color: #1B1A1A;
+    font-size: 16px;
+}
+
+.firstcontent .text button {
+    width: 133px;
+    margin-top: 25px;
+    height: 46px;
+    color: #1B1A1A;
+}
+
+/* Второй блок-контент */
+
+.secondcontent {
+    width: 768px;
+    height: 490px;
+    margin-top: 20px;
+    margin-left: 285px;
+    display: flex;
+}
+
+.secondcontent p {
+    font-size: 32px;
+}
+
+.secondcontent .righttext {
+    margin-left: auto; 
+    width: 70%;
+    height: 100%;
+}
+
+.secondcontent .righttext p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.partner {
+    display: flex;
+    height: 100px;
+    width: 500px;
+    margin-top: 50px;
+}
+
+.partner img {
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+}
+
+.partner p {
+    margin-left: 20px;
+}
+
+.partner p:nth-child(2) {
+    font-size: 17px;
+}
+
+.partner p:nth-child(3) {
+    position: relative;
+    top: 20px;
+    right: 135px;
+    font-size: 14px;
+}
+
+/* Третий блок-контент */
+
+.thirdcontent {
+    display: flex;
+    margin-top: 80px;
+    width: 1338px;
+    height: 600px;
+}
+
+.thirdcontent img {
+    width: 1338px;
+    height: 600px;
+}
+
+.thtext {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 930px;
+    height: 600px;
+    width: 300px;
+}
+
+.thtext p {
+    color: #403E3B;
+    font-size: 14px;
+}
+
+.thtext p:nth-child(2) {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+/* Четвертый блок-контент */
+
+.fourcontent {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 1100px;
+    height: 400px;
+    margin-left: 130px;
+    margin-top: 80px;
+}
+
+.fourcontent p:nth-child(1) {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #645C55;
+    letter-spacing: 2px;
+
+}
+
+.fourcontent p:nth-child(2) {
+    margin-top: 10px;
+    font-size: 39px;
+}
+
+.fourcontent .innerchild {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    width: 900px;
+    height: 300px;
+}
+
+.fourcontent .inner-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 25px;
+    width: 300px;
+}
+
+.fourcontent .inner-content i {
+    color: white;
+    font-size: 28px;
+}
+
+.fourcontent .logo {
+    background-color: #403E3B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 117px;
+    height: 102px;
+    border-radius: 50%;
+}
+
+.fourcontent .inner-content p:nth-child(2) {
+    font-size: 17px;
+    color: #403E3B;
+}
+
+.fourcontent .inner-content p:nth-child(3) {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #645C55;
+}
+
+/* Пятый блок-контент */
+
+.fivecontent {
+    display: flex;
+    margin-top: 80px;
+    width: 1343px;
+    height: 600px;
+}
+
+.fivecontent img {
+    width: 1346px;
+    height: 600px;
+}
+
+.fivecontent .text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #645C55;
+    right: 50px;
+    height: 600px;
+    width: 300px;
+}
+
+.fivecontent .text p:nth-child(1) {
+    letter-spacing: 2px;
+}
+
+/* Шестой блок-контент */
+
+.sixcontent {
+    background-color: #403E3B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1343px;
+    height: 410px;
+}
+
+.sixcontent .innerchild {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    height: 290px;
+}
+
+.sixcontent .innerchild .customers {
+    width: 440px;
+    height: 160px;
+    margin-left: 70px;
+}
+
+.sixcontent .innerchild .customers p:nth-child(1) {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+
+.sixcontent .innerchild .customers p:nth-child(2) {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.sixcontent .innerchild .customers p:nth-child(3) {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 7px;
+}
+
+.sixcontent .innerchild .compains {
+    margin-right: 80px;
+    margin-bottom: 80px;
+    width: 380px;
+    height: 200px;
+}
+
+.sixcontent .innerchild .compains img {
+    margin-top: 40px;
+    margin-left: 70px;
+    width: 110px;
+}
+
+.sixcontent .innerchild .compains img:nth-child(1) {
+    margin-bottom: 26px;
+}
+
+.sixcontent .innerchild .compains img:nth-child(2) {
+    margin-bottom: 26px;
+}
+
+/* Седьмой блок-контент */
+
+.sevencontent {
+    display: flex;
+    width: 1343px;
+    height: 600px;
+}
+
+.sevencontent img {
+    width: 1343px;
+    height: 600px;
+}
+
+.sevencontent .innerchild {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    width: 300px;
+    margin-left: 60px;
+}
+
+.sevencontent .innerchild p {
+    margin-top: 2px;
+}
+
+/* Восьмый блок-контент */
+
+.eightcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1290px;
+    height: 918px;
+}
+
+.eightcontent .innerchild {
+    width: 1000px;
+    height: 698px;
+}
+
+.eightcontent .innerchild p:nth-child(1) {
+    font-size: 39px;
+    line-height: 42px;
+}
+
+.eightcontent .innerchild p:nth-child(2) {
+    font-size: 24px;
+    line-height: 30px;
+    width: 581px;
+}
+
+.eightcontent .innerchild .inner-content {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    height: 410px;
+    width: 950px;
+}
+
+.eightcontent .innerchild .inner-content img {
+    width: 345px;
+    margin-right: 20px;
+}
+
+.eightcontent .innerchild .inner-content .second .text {
+    position: relative;
+    bottom: 320px;
+    left: 25px;
+}
+
+.eightcontent .innerchild .inner-content .second .text p:nth-child(1) {
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+
+.eightcontent .innerchild .inner-content .second .text p:nth-child(2) {
+    font-size: 23px;
+    line-height: 30px;
+}
+
+.eightcontent .innerchild .inner-content button {
+    background-color: #1B1A1A;
+    position: relative;
+    bottom: 120px;
+    left: 40px;
+    border-radius: 14px;
+    width: 123px;
+    height: 40px;
+}
+
+.eightcontent .innerchild .inner-content button a {
+    color: white;
+}
+
+.eightcontent .innerchild .inner-content .third img {
+    margin-right: 50px;
+    width: 200px;
+}
+
+.eightcontent .innerchild .view {
+    line-height: 24px;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    margin-left: 470px;
+}
+
+/* Девятый блок-контент */
+
+.ninecontent {
+    width: 768px;
+    height: 392px;
+    margin-left: 285px;
+    display: flex;
+}
+
+.ninecontent .text {
+    margin-left: 0;
+    width: 380px;
+    height: 392px;
+}
+
+.ninecontent .text p:nth-child(1) {
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.ninecontent .text p:nth-child(2) {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.ninecontent .text a {
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+
+.ninecontent .workers {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 392px;
+}
+
+.ninecontent .workers div {
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 200px;
+    height: 100px;
+}
+
+.ninecontent .workers div img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.ninecontent .workers div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ninecontent .workers div p:nth-child(2) {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 17px;
+    line-height: 26px;
+}
+
+.ninecontent .workers div p:nth-child(3) {
+    position: relative;
+    left: 70px;
+    bottom: 40px;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+/* Десятый блок-контент */
+
+.tencontent {
+    background-color: #CEC4BC;
+    width: 1343px;
+    height: 314px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tencontent .innerchild {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 114px;
+    width: 1100px;
+}
+
+.tencontent .innerchild .inner-content {
+    height: 114px;
+    width: 700px;
+}
+
+.tencontent .innerchild p:nth-child(1) {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+
+.tencontent .innerchild p:nth-child(2) {
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.tencontent .innerchild button {
+    margin-right: 40px;
+}
+
+/* Одинадцатый блок-контент */
+
+.elevencontent {
+    width: 1343px;
+    height: 204px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elevencontent .innerchild {
+    width: 1100px;
+    height: 84px;
+}
+
+.elevencontent .innerchild p:nth-child(2) {
+    margin-top: 10px;
+    color: #645C55;
+}
+
+.elevencontent .innerchild p:nth-child(3) {
+    color: #645C55;
+}
+
+.elevencontent .icons {
+    position: relative;
+    right: 120px;
+}
+
+.elevencontent .icons i {
+    margin-left: 10px;
+}
